@@ -1,0 +1,277 @@
+*{
+    text-decoration: none;
+    outline: none;
+    
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    
+    background-color: rgb(255, 255, 255);
+}
+
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+/* menu */
+.navbar{
+    background-color: rgb(223, 223, 223);
+}
+ 
+.navbar-brand img{
+    width: 50%;
+}
+
+.active{
+    
+    background-color: #0060AC;
+    border-radius: 30px;
+    padding: 8px;
+    margin: 5px;
+   
+}
+
+.nav-link-active{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    padding: 15px 26px;
+    min-width: 160px;
+}
+
+.active:hover{
+    
+    background-color: rgb(67, 121, 165);
+    
+    border-radius: 15px;
+    
+    text-decoration: none;
+    outline: none;
+   
+}
+
+.nav-link {
+    color: #002C64;
+    font-weight: 700;
+    padding: 7px;
+    margin: 5px;
+}
+
+.nav-link:hover {
+    color: rgb(99, 155, 233);
+    font-weight: 700;
+    padding: 7px;
+    margin: 5px;
+}
+
+ion-icon {
+    font-size : 40px ;
+    color: rgb(0, 0, 0);
+ }
+
+ .navbar-toggler{
+     color: #000;
+ }
+
+ .navbar-toggler:focus {
+    outline: none;
+}
+
+
+
+/* portada-inicio */
+
+#fondo{
+    background-image: url(../img/inse.png);
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 425px;
+    color: white;
+    border-radius: 30px;
+    margin: 30px;
+}
+
+#fondo h1{
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+#fondo p{
+    font-size: 30px;
+    margin-top: 3px;
+}
+
+.btn{
+    font-size: 20px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 15px;
+    display: inline-block;
+    background-color: #a51e8b;
+    outline: none;
+}
+
+.btn:hover{
+    font-size: 20px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 15px;
+    display: inline-block;
+    background-color: #1e47a5;
+    outline: none;
+    
+}
+.content-center{
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* css mision */
+
+#portada-mision{
+    margin-top: 50px;
+    background-image: url(../img/fondo-mision.png);
+    background-size: cover;
+    border-radius: 30px;
+    margin: 30px;
+    
+}
+#portada-mision img{
+   width:40%;
+}
+
+
+.left h1{ 
+    color: #000;
+    font-size: 80px;
+}
+.left h4{ 
+    color: rgb(31, 30, 30);
+    
+}
+
+/* css VISIÓN */
+
+#portada-vision{
+    margin-top: 50px;
+    background-image: url(../img/fondo-vision.png);
+    background-size: cover;
+    border-radius: 30px;
+    margin: 30px;
+}
+#portada-vision img{
+    padding-top: 35px;
+   width:100%;
+}
+
+
+.left h1{ 
+    color: #000;
+    font-size: 80px;
+}
+.left p{ 
+    color: rgb(42, 42, 42);
+    
+}
+
+
+/* css trámites */
+
+#portada-tramites{
+    margin-top: 50px;
+    background-image: url(../img/fondo-tramites.png);
+    background-size: cover;
+    border-radius: 30px;
+    margin: 30px;
+}
+#portada-tramites img{
+    padding-top: 35px;
+   width:100%;
+}
+
+
+.left h1{ 
+    color: #000;
+    font-size: 80px;
+}
+.left p{ 
+    color: rgb(42, 42, 42);
+    
+}
+
+/* css contacto */
+
+#portada-contacto{
+    margin-top: 50px;
+    background-image: url(../img/fondo-contacto.png);
+    background-size: cover;
+    border-radius: 30px;
+    margin: 30px;
+}
+#portada-contacto img{
+   width:100%;
+}
+
+
+#portada-contacto h1{ 
+    color: #000;
+    
+    font-size: 60px;
+    font-weight: 800;
+    
+}
+
+
+.left p{ 
+    color: rgb(42, 42, 42);
+    
+}
+/* css nosotros */
+
+#portada-nosotros{
+    margin-top: 50px;
+    background-image: url(../img/fondo-nosotros.png);
+    background-size: cover;
+    border-radius: 30px;
+    margin: 30px;
+}
+#portada-nosotros img{
+    padding-top: 35px;
+   width:100%;
+}
+
+
+.left h1{ 
+    color: #000;  
+    font-size: 60px;
+    font-weight: 800;
+    
+}
+
+
+.left p{ 
+    color: rgb(42, 42, 42);
+    
+}
+/* galeria */
+
+
+/* footer */
+.footer{
+    background-color:rgb(56, 56, 56);
+    color: rgb(228, 228, 228);
+}
